@@ -181,20 +181,20 @@ int main(int argc, char **argv)
 
 ## Output:
 ![image](https://github.com/Bhuvaneshwari-2003/PCA-GPU-based-vector-summation.-Explore-the-differences./assets/94828604/0d9c1b61-7a03-4338-b7bc-e74190f359cf)
-
+```
 Sum Arrays on Host : 0.034372 sec.
 Sum Arrays on GPU : 0.020783 sec.
-
+```
 ![image](https://github.com/Bhuvaneshwari-2003/PCA-GPU-based-vector-summation.-Explore-the-differences./assets/94828604/80aa47f1-5eba-4794-b133-5248647e9858)
-
+```
 Sum Arrays on Host : 0.033561 sec.
 Sum Arrays on GPU : 0.021730 sec.
-
+```
 ![image](https://github.com/Bhuvaneshwari-2003/PCA-GPU-based-vector-summation.-Explore-the-differences./assets/94828604/85a42bb5-2729-40c1-a47e-63f4b4fb8c3e)
-
+```
 Sum Arrays on Host : 0.033183 sec.
 Sum Arrays on GPU : 0.020864 sec.
-
+```
 Host-based array summation vs GPU-based vector summation GPUs: “SIMD” - “Single-Instruction, Multiple-Data”. A GPU can operate on a hundred or a thousand vertices or pixels at once in parallel, but it has to perform exactly the same calculation on all of them.
 
 Whereas a single CPU core can be described as “SISD” - “Single-Instruction, Single-Data”. With multiple CPU cores, we get “MIMD” -- “Multiple-Instruction, Multiple-Data”, where each instruction sequence can be doing entirely different things to different data. Or in other words, multithreading.
